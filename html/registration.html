@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/registration.css">
+</head>
+<body>
+    <div>
+        <h2>Registration Form</h2>
+<form name="myForm" action="./success.html" onsubmit="return submitForm()">
+    <table>
+        <tr>
+            <th class="col1tr">First Name</th>
+            <td class="col2tr"><input type="text" id="firstname" placeholder="First name" minlength="3" maxlength="15" required="true"></td>
+        </tr>
+        <tr>
+            <th class="col1tr">Last Name</th>
+            <td class="col2tr"><input type="text" id="lastname" placeholder="Last name" minlength="5" maxlength="25" required="true"></td>
+        </tr>
+        <tr>
+            <th class="col1tr">User Name</th>
+            <td class="col2tr"><input type="text" id="username" placeholder="User Name" required="true"></td>
+        </tr>
+        <tr>
+            <th class="col1tr">Password</th>
+            <td class="col2tr"><input type="password" id="password" placeholder="Password"></td>
+        </tr>
+        <tr>
+            <th class="col1tr">Address</th>
+            <td class="col2tr"><input type="text" class="textarea" required="true"></td>
+        </tr>
+        <tr>
+            <th class="col1tr">Pin</th>
+            <td class="col2tr"><input type="number" placeholder="Pin Code" required="true"></td>
+        </tr>
+       
+        <tr>
+            <th class="col1tr"></th>
+            <td class="col2tr">
+               <input type="submit" id="register" value="Register">
+            </td>
+        </tr>        
+    </table>
+</form>
+    </div>
+</body>
+</html>

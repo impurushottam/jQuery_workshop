@@ -1,0 +1,14 @@
+
+
+{
+  "users": [
+    {
+      "firstname": "Purushottam",
+    "lastname": "Pathak",
+    "address": "Purna",
+    "pincode": "431511",
+    "username": "purushottam",
+    "password": "12345"
+    }
+  ]
+}
